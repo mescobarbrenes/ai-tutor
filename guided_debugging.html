@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Guided Debugging - AI Tutor</title>
+    <link rel = "stylesheet" href = "guided_debugging.css">
+  </head>
+  <body>
+    <div id = "navbar">
+      <button id = "back-button" onclick = "goBack()">&lt; AI Tutor</button>
+      <h1 id = "page-title">Guided Debugging Mode</h1>
+      <button id = "help-button" onclick = "showHelp()">?</button>
+    </div>
+    
+    <div id = "step1" class = "code-box">
+      <h2 class = "submit-code">Submit Your Code</h2>
+      <textarea id = "initial-code" placeholder = "Paste your code here..."></textarea><br>
+      <button onclick = "submitInitialCode()" class = "submit-button">Submit Code</button>
+    </div>
+    
+    <div id = "step2" class = "hidden">
+      <div class = "code-box step2-container">
+        <div class = "code-box resubmit-code">
+          <h3>Ready to resubmit?</h3>
+          <textarea id = "fixed-code" placeholder = "Paste your fixed code here..."></textarea><br>
+          <button onclick = "resubmitCode()" class = "submit-button">Submit</button>
+        </div>
+      <div class = "code-box checklist-section">
+        <h2>Debugging Checklist</h2>
+        <ul id = "checklist">
+          <!-- checklist items will appear here -->
+        </ul>
+      </div>
+      </div>
+    </div>
+
+    <div id = "step3" class = "hidden">
+      <div class = "code-box step3-container">
+        <div class = "code-box reflection-code">
+          <h2>Reflection</h2>
+          <p class = "reflection">No problems detected! Great job, keep up the good work!</p>
+          <p class = "reflection">Let's reflect on what you just learned! Compare your understanding now to before debugging - what changed?</p>
+          <textarea id = "code-box reflection-box" placeholder = "Write your reflection..."></textarea><br>
+          <button onclick = "submitReflection()" class = "submit-button">Submit</button>
+        </div>
+      </div>
+    </div>
+    
+    <div id = "step4" class = "hidden">
+      <h2>Thank You!</h2>
+      <p>Your session is complete. Keep practicing!</p>
+    </div>
+<script>
+function submitInitialCode() {
+  //for now, pretend we "analyze" the code and find problems
+  const checklistItems = [
+    "Check your loop syntax (for, while).",
+    "Verify if all functions are properly closed with braces.",
+    "Make sure variable names are consistent."
+  ];
+
+  const checklistUl = document.getElementById('checklist');
+  checklistUl.innerHTML = '';
+  
+  checklistItems.forEach(item => {
+    const li = document.createElement('li');
+    li.textContent = item;
+    checklistUl.appendChild(li);
+  });
+
+  document.getElementById('step1').classList.add('hidden');
+  document.getElementById('step2').classList.remove('hidden');
+}
+
+function resubmitCode() {
+  //fake checking: we'll always assume the second submission is good
+  document.getElementById('step2').classList.add('hidden');
+  document.getElementById('step3').classList.remove('hidden');
+}
+
+function submitReflection() {
+  document.getElementById('step3').classList.add('hidden');
+  document.getElementById('step4').classList.remove('hidden');
+}
+
+function goBack() {
+  window.history.back();
+}
+
+function showHelp() {
+  alert("Submit your code, follow the checklist, and reflect on your debugging!")
+}
+</script>
+</body>
+</html>
