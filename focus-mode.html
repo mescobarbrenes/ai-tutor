@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <meta charset = "UTF-8">
+  <title>Focus Mode</title>
+  <link rel = "stylesheet" href = "focus-mode.css">
+</head>
+<body>
+  <div id = "navbar">
+    <button id = "back-button" onclick = "goBack()">&lt; AI Tutor</button>
+    <h1 id = "page-title">Focus Mode</h1>
+    <button id = "help-button" onclick = "showHelp()">?</button>
+  </div>
+  
+  <div class = "code-box">
+    <div class= "container">
+      <div class = "main-content">
+        <div class = "timers">
+          <div class = "timer-box">
+            <h3>Time Remaining</h3>
+            <div class = "timer-clock">
+            <input type = "number" class = "timer-input timer-min" min = "0" max = "59" value = "25"> 
+            <p class = ":">&#58;</p>
+            <input type = "number" class = "timer-input timer-sec" min = "0" max = "59" value = "00"> 
+          </div>
+        </div>
+        <div class = "pomodoro-box">
+          <h3>Pomodoros Completed</h3>
+          <p id = "pomodoro-status">0/4</p>
+        </div>
+        <div class = "tip-box">
+          <h3>Tip</h3>
+          <p id = "tip-text">Stay focused, you're doing great!</p>
+        </div>
+      </div>
+
+      <div class = "tasks">
+        <h2 class = "task-header">Task List</h2>
+        <div class = "task-input">
+          <input type = "text" id = "taskInput" placeholder = "Enter task..." />
+          <button onclick = "addTask()" class = "add-button">Add</button>
+        </div>
+        <ul class = "task-list" id = "taskList"></ul>
+        
+        <h2 class = "task-header">Completed Tasks</h2>
+        <ul class = "task-list" id = "completedList"></ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class = "footer">
+  <button class = "footer-button">Pause</button>
+  <button class = "footer-button">End Session</button>
+  <button class = "footer-button">Talk to AI Tutor</button>
+</div>
+
+<script src = "https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+<script src = "focus-mode.js"></script>
+</body>
+</html>

@@ -35,6 +35,7 @@ body {
 
 .container {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   margin-bottom: 20px;
 }
@@ -46,7 +47,6 @@ body {
   border-radius: 10px;
 }
 
-/*left: Timers */
 .timers {
   width: 45%;
   display: flex;
@@ -72,6 +72,14 @@ body {
 }
 
 .timer-input {
+  text-align: center;
+}
+
+.timer-box, .pomodoro-box, .tip-box {
+  margin-bottom: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
   text-align: center;
 }
 
@@ -166,6 +174,43 @@ body {
   padding: 20px 20px;
   width: 40px;
   height: 40px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.timers, .tasks {
+  flex: 1;
+}
+
+input[type = "checkbox"] {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid none;
+  border-radius: 4px;
+  background-color: rgb(206, 204, 204);
+  color: rgb(206, 204, 204);
+  cursor: pointer;
+  position: relative;
+}
+
+input[type = "checkbox"]:checked {
+  background-color: rgb(10, 179, 10);
+  border: none;
+}
+
+input[type="checkbox"]:checked::after {
+  content: "✓";
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: -2px;
+  left: 4px;
 }
 
 /*footer */
