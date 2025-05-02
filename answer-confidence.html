@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CS Answer Confidence Score</title>
+  <link rel="stylesheet" href="answer-confidence.css">
+</head>
+<body>
+  <div id = "navbar">
+    <button id = "back-button" onclick = "goBack()">&lt; AI Tutor</button>
+    <h1 id = "page-title">AI Answer Confidence</h1>
+    <button id = "help-button" onclick = "showHelp()">?</button>
+  </div>
+  <div class= "intro">
+    <h2>Test Your Understanding</h2>
+    <p>Answer the following question to see how confident the AI is in your explanation.</p>
+  </div>
+  <div class = "code-box">
+  <div class = "container">
+    <div class = "question-section">
+      <h2 class = "question-header">Question</h2>
+      <p id = "question" class = "question-section">Explain the difference between a stack and a queue.</p> 
+    </div>
+      <textarea id = "userAnswer" placeholder = "Type your answer here..."></textarea>
+      <button onclick = "evaluateAnswer()" class = "submit-button">Submit Answer</button>
+
+      <div class = "result-section">
+      <h2 class = "ai-score-header">AI Confidence Score</h2>
+      <div id = "scoreBox">—%</div>
+
+      <h3>Feedback</h3>
+      <p id = "feedback">Submit an answer to get feedback.</p>
+    </div>
+  </div>
+
+  <div class = "resources-section">
+    <h3>Explore More</h3>
+    <ul id = "resourceList">
+      <li><a href = "https://www.geeksforgeeks.org/stack-vs-queue-data-structure/" target="_blank">GeeksforGeeks: Stack vs Queue</a></li>
+      <li><a href = "https://stackoverflow.com/questions/69192/when-to-use-a-stack-vs-a-queue" target="_blank">StackOverflow Discussion</a></li>
+      <li><a href = "https://www.youtube.com/watch?v=tJWR1iezyNQ" target="_blank">YouTube: Stack vs Queue (visual)</a></li>
+    </ul>
+  </div>
+</div>
+  <script src = "answer-confidence.js"></script>
+</body>
+</html>

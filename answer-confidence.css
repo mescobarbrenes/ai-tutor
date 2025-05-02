@@ -1,0 +1,102 @@
+body { 
+  font-family: Helvetica;
+  margin: px; 
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#back-button {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: rgb(0, 0, 139);
+  background-color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+#help-button {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(0, 0, 139);
+  font-size: 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: solid;
+  text-align: center;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.code-box {
+  border: 2px solid rgb(238, 237, 234);
+  background-color: rgb(238, 237, 234);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.question-header, .question-section {
+  text-align: center;
+}
+
+textarea {
+  width: 95%; 
+  height: 300px;
+  margin: 0 auto 10px auto;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  box-shadow: none;
+}
+
+.submit-button {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(248, 246, 243);
+  border: none;
+  margin: 0 auto 10px auto;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: rgb(0, 0, 139);
+  color: white;
+  opacity: 0.7;
+}
+
+.ai-score-header {
+  text-align: center;
+}
+
+#scoreBox {
+  display: inline-block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+.result-section {
+  text-align: center;
+}
