@@ -68,6 +68,22 @@
       window.location.href = "focus-mode.html"
     }
 
+    function showHelp() {
+      alert(
+      "Focus Mode Help and Set Up:\n\n" +
+      "The Pomodoro Technique helps you stay productive by breaking work into intervals:\n" +
+      "• 25 minutes of focused work (Pomodoro)\n" +
+      "• 5-minute short breaks\n" +
+      "• 15-minute long breaks after 4 consecutive Pomodoros\n\n" +
+      "Setup Steps:\n" +
+      "1. Adjust your Pomodoro, Short Break, and Long Break times if needed. " + 
+      "Timers can be adjusted up or down by hovering over the timer numbers.\n" +
+      "2. Enter your tasks using the task input box.\n" +
+      "3. Click 'Enter Focus Mode' when you're ready to start.\n\n" +
+      "Or click 'Return to Main Menu' to exit."
+      );
+    }
+
     function returnToMainMenu() {
       alert("Returning to Main Menu...");
       //restore normal layout here

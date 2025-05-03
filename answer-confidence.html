@@ -8,12 +8,11 @@
 <body>
   <div id = "navbar">
     <button id = "back-button" onclick = "goBack()">&lt; AI Tutor</button>
-    <h1 id = "page-title">AI Answer Confidence</h1>
+    <h1 id = "page-title">Test Your Understanding</h1>
     <button id = "help-button" onclick = "showHelp()">?</button>
   </div>
   <div class= "intro">
-    <h2>Test Your Understanding</h2>
-    <p>Answer the following question to see how confident the AI is in your explanation.</p>
+    <h2>Answer the following question to see how confident the AI Tutor is in your answer.</span></h2>
   </div>
   <div class = "code-box">
   <div class = "container">
@@ -34,12 +33,17 @@
   </div>
 
   <div class = "resources-section">
-    <h3>Explore More</h3>
-    <ul id = "resourceList">
-      <li><a href = "https://www.geeksforgeeks.org/stack-vs-queue-data-structure/" target="_blank">GeeksforGeeks: Stack vs Queue</a></li>
-      <li><a href = "https://stackoverflow.com/questions/69192/when-to-use-a-stack-vs-a-queue" target="_blank">StackOverflow Discussion</a></li>
-      <li><a href = "https://www.youtube.com/watch?v=tJWR1iezyNQ" target="_blank">YouTube: Stack vs Queue (visual)</a></li>
+    <h3 class = "resource-header">Explore More</h3>
+    <ul id = "resourceList" class = "resource-list">
+      <li><a href = "https://www.geeksforgeeks.org/difference-between-stack-and-queue-data-structures/" target="_blank">GeeksforGeeks: Stack vs Queue</a></li>
+      <li><a href = "https://stackoverflow.com/questions/2074970/stack-and-queue-why" target="_blank">StackOverflow: Stack and Queue Discussion</a></li>
+      <li><a href = "https://www.youtube.com/watch?v=A3ZUpyrnCbM" target="_blank">YouTube: Introduction to Stacks and Queues</a></li>
     </ul>
+  </div>
+
+  <div class = "footer">
+    <button class = "footer-button" onclick = "location.reload()">Try Another Question</button>
+    <button class = "footer-button">Return to Main Menu</button>
   </div>
 </div>
   <script src = "answer-confidence.js"></script>

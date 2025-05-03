@@ -47,13 +47,17 @@ body {
   border-radius: 10px;
 }
 
+.intro {
+  text-align: center;
+}
+
 .question-header, .question-section {
   text-align: center;
 }
 
 textarea {
   width: 95%; 
-  height: 300px;
+  height: 200px;
   margin: 0 auto 10px auto;
   font-family: Helvetica;
   font-weight: bold;
@@ -85,10 +89,11 @@ textarea {
 
 .ai-score-header {
   text-align: center;
+  font-size: 30px;
 }
 
 #scoreBox {
-  display: inline-block;
+  display: none;
   margin: 10px auto;
   padding: 10px 20px;
   font-size: 24px;
@@ -97,6 +102,61 @@ textarea {
   border-radius: 8px;
   text-align: center;
 }
+
 .result-section {
+  display: none;
   text-align: center;
+}
+
+.resources-section {
+  display: none;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.resource-header {
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.resource-list {
+  font-size: 20px;
+  font-family: Helvetica;
+  font-weight: bold; 
+  margin-top: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: left;
+}
+
+.resource-list li {
+  margin-bottom: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.footer-button {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(248, 246, 243);
+  border: none;
+  display: block;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.footer-button:hover {
+  background-color: rgb(0, 0, 139);
+  color: white;
+  opacity: 0.7;
 }

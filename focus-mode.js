@@ -226,7 +226,14 @@ function goBack() {
 }
 
 function showHelp() {
-  //alert("This is a Pomodoro Focus Mode to help you work in timed sessions with breaks.");
+  alert(
+  "How to Use Focus Mode\n\n" +
+  "1. Adjust your Pomodoro, Short Break, and Long Break times if needed. " + 
+  "Timers can be adjusted up or down by hovering over the timer numbers.\n" +
+  "2. Enter your tasks using the task input box.\n" +
+  "3. Click 'Enter Focus Mode' when you're ready to start.\n\n" +
+  "Or click 'Return to Main Menu' to exit."
+  );
 }
 
 new Sortable(document.getElementById('taskList'), {
