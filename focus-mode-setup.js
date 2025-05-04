@@ -84,7 +84,9 @@
       );
     }
 
-    function returnToMainMenu() {
-      alert("Returning to Main Menu...");
-      //restore normal layout here
+    function goBack() {
+      const confirmExit = confirm("Are you sure you want to return to the main menu?")
+      if (confirmExit) {
+        location.href = "index.html";
+      }
     }

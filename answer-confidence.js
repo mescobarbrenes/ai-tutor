@@ -48,3 +48,11 @@ function showHelp() {
     "Or click 'Return to Main Menu' to exit."
   );
 }
+
+function goBack() {
+  const confirmExit = confirm("Are you sure you want to return to the main menu?")
+  if (confirmExit) {
+    location.href = "index.html";
+  }
+}
+

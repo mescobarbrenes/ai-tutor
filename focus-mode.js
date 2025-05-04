@@ -222,7 +222,10 @@ function endSession() {
 }
 
 function goBack() {
-  //alert("Returning to AI Tutor...");
+    const confirmExit = confirm("Are you sure you want to return to the main menu?")
+    if (confirmExit) {
+      location.href = "index.html";
+    }
 }
 
 function showHelp() {
@@ -247,3 +250,11 @@ window.onload = () => {
   document.querySelector('.footer-button:nth-child(1)').onclick = pauseTimer;
   document.querySelector('.footer-button:nth-child(2)').onclick = endSession;
 };
+
+function endSession() {
+    const confirmExit = confirm("Are you sure you want to end your session? You will be redirected back to the main menu.")
+    if (confirmExit) {
+      location.href = "index.html";
+    }
+}
+

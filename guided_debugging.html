@@ -47,9 +47,15 @@
     </div>
     
     <div id = "step4" class = "hidden">
+      <div class = "code-box step4-container">
       <h2>Thank You!</h2>
       <p>Your session is complete. Keep practicing!</p>
+      <div class = "footer">
+        <button onclick = "debugMoreCode()" class = "footer-button">Debug More Code</button>
+        <button class = "footer-button" onclick = "goBack()">Return to Main Menu</button>
+      </div>
     </div>
+  </div>
 <script>
 function submitInitialCode() {
   //for now, pretend we "analyze" the code and find problems
@@ -84,6 +90,14 @@ function submitReflection() {
 }
 
 function goBack() {
+  const confirmExit = confirm("Are you sure you want to return to the main menu?")
+  if (confirmExit) {
+    location.href = "index.html";
+  }
+}
+
+function debugMoreCode() {
+  location.href = "guided_debugging.html"
 }
 
 function showHelp() {

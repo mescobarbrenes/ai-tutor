@@ -1,0 +1,70 @@
+body { 
+  font-family: Helvetica;
+  text-align: center;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  background-color: rgb(47, 44, 44);
+}
+
+.homepage-title {
+  color: white;
+  margin: 0 auto;
+  flex-grow: 1;
+  text-align: center;
+}
+
+#help-button {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(47, 44, 44);
+  font-size: 20px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+}
+
+#back-button {
+  font-family: Helvetica;
+  font-weight: bold;
+  color: rgb(0, 0, 139);
+  background-color: white;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.feature-button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.feature-button {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(248, 246, 243);
+  border: none;
+  display: block;
+  justify-content: column;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.feature-button:hover {
+  background-color: rgb(47, 44, 44);
+  color: white;
+  opacity: 0.7;
+}
