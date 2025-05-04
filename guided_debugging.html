@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
   <head>
-    <meta charset="UTF-8">
+    <meta charset= "UTF-8">
     <title>Guided Debugging - AI Tutor</title>
     <link rel = "stylesheet" href = "guided_debugging.css">
   </head>
@@ -60,9 +60,9 @@
 function submitInitialCode() {
   //for now, pretend we "analyze" the code and find problems
   const checklistItems = [
-    "Check your loop syntax (for, while).",
-    "Verify if all functions are properly closed with braces.",
-    "Make sure variable names are consistent."
+    { text: "Check your loop syntax (for, while).", status: "success" },
+    { text: "Verify if all functions are properly closed with braces.", status: "error" },
+    { text: "Make sure variable names are consistent.", status: "blank" }
   ];
 
   const checklistUl = document.getElementById('checklist');
@@ -70,7 +70,14 @@ function submitInitialCode() {
   
   checklistItems.forEach(item => {
     const li = document.createElement('li');
-    li.textContent = item;
+    li.classList.add('checklist-item');
+
+    const statusBox = document.createElement('span');
+    statusBox.classList.add('status-box', item.status);
+
+    li.appendChild(statusBox);
+    li.appendChild(document.createTextNode(item.text));
+    //li.textContent = item;
     checklistUl.appendChild(li);
   });
 
