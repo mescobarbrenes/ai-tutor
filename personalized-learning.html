@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Personalized Learning - AI Tutor</title>
+  <link rel="stylesheet" href="personalized-learning.css">
+</head>
+<body>
+  <div id="navbar">
+    <button id="back-button" onclick="goBack()">&lt; AI Tutor</button>
+    <h1 id="page-title">Personalized Learning</h1>
+    <button id="help-button" onclick="showHelp()">?</button>
+  </div>
+
+  <!-- <div class="code-box intro">
+    <h2>Personalized Learning Resources</h2>
+    <p>These resources are tailored based on your current progress and mastery level.</p>
+  </div> -->
+
+  <div class="code-box resource-container">
+    <h2>Suggested Topics</h2>
+    <ul id="recommendationList" class="recommendation-list">
+      <!-- JavaScript will populate this -->
+    </ul>
+  </div>
+
+  <div class="footer">
+    <button class="footer-button" onclick="location.reload()">🔄 Refresh Recommendations</button>
+    <button class="footer-button" onclick="goBack()">🏠 Return to Main Menu</button>
+  </div>
+
+  <script src="personalized-learning.js"></script>
+</body>
+</html>

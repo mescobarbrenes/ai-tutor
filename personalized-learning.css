@@ -1,0 +1,106 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white; /* ← NEW */
+    color: black;
+    border-bottom: 2px solid #ddd;
+  }  
+  
+  #back-button {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: rgb(0, 0, 139);
+    background-color: white;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  #help-button {
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 0, 139);
+    font-size: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid;
+    cursor: pointer;
+  }
+  
+  #page-title {
+    flex-grow: 1;
+    text-align: center;
+    margin: 0;
+    color: black;
+  }  
+  
+  .code-box {
+    border: 2px solid rgb(238, 237, 234);
+    background-color: rgb(238, 237, 234);
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+  }
+  
+  .intro h2 {
+    margin-top: 0;
+  }
+  
+  .recommendation-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .recommendation-list li {
+    background-color: #f2f2f2;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .recommendation-list li a {
+    text-decoration: none;
+    color: #003399;
+    font-weight: bold;
+  }
+  
+  .footer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-button {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(248, 246, 243);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .footer-button:hover {
+    background-color: rgb(0, 0, 139);
+    color: white;
+    opacity: 0.7;
+  }
+  
