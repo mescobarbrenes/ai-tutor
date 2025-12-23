@@ -1,7 +1,7 @@
 # Human-Computer Interaction for Computer Science
 Repository for **Human-Computer Interaction for Computer Science** for Spring 2025.
 
-# **AI Tutor: Designed for Computer Science Students
+# **AI Tutor: Designed for Computer Science Students**
 
 ## **About AI Tutor: Introduction and Motivation**
 This project is an AI-powered adapative tutoring system designed to support Computer Science students in self-paced, remote, and hybrid learning environments. Computer Science students, especially those engaged in self-paced, remote, or hybrid learning environment, frequently encounter significant challenges that hinder effective study and skill acquisition. Unlike traditional classroom settings where instructors and peers are readily accessible, these students often lack timely, personalized support to navigate complex tasks such as debugging code, managing study schedules, and maintaining focus. These challenges contribute to increased frustration, inefficient learning, and reduced academic performance. As a result, these students require adapative, trustworthy tools to supplement their study habits and improve learning outcomes. 
@@ -27,7 +27,7 @@ Evaluation feedback guided successive refinements in design and functionality, i
 
 Through this iterative HCD cycle, the team remained responsive to evolving insights, optimizing the AI tutor for both practical utility and learner engagement.
 
-## **Formative Research Phase
+## **Formative Research Phase**
 
 ### **Methods**
 
@@ -68,7 +68,7 @@ Balancing academics with wellbeing remains difficult; features supporting breaks
 ### **Impact on Design**
 These insights directly informed our four core task areas - guided debugging, AI confidence scoring, focus mode, and adaptive learning - ensuring that the AI tutor addressed real user needs with sensitivity to trust and autonomy.
 
-## **Ideation and Prototyping Phase
+## **Ideation and Prototyping Phase**
 
 ### **Methods**
 We developed a series of prototypes:
