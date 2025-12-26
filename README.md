@@ -142,7 +142,7 @@ When moving from lo-fi sketches to mid-fi prototypes, we aimed to create a simpl
 
 ### Guided Debugging
 
-![Guided Debugging Mid-fi Image 1]()
+![Guided Debugging Mid-fi Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_midfi_1.png)
 
 A major change from the first lo-fi sketch to the first mid-fi protoype was the reorganization of the layout. 
 
@@ -152,14 +152,13 @@ A major change from the first lo-fi sketch to the first mid-fi protoype was the 
 
 This layout adjustment was made with the assumption that users naturally scan content vertically rather than horizontally, making a top-to-bottom layout for intuitive and easier to follow.
 
-![Guided Debugging Mid-fi Image 2]()
+![Guided Debugging Mid-fi Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_midfi_2.png)
 
 This reflection feature in the second mid-fi prototype also implemented this top-to-bottom structure, reinforcing consistency and improving readability.
 
-
 ### AI Answer Confidence
 
-![AI Answer Confidence Mid-fi Image 1]()
+![AI Answer Confidence Mid-fi Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/ai_answer_confidence_midfi_1.png)
 
 A minor but intentional layout change was made to the "Explore More" feature. It was moved from the bottom-center of the page to the bottom-left hand corner to create space for a clearly visible "Return to Main Menu" button. This change gives users a clear way to exit the page.
 
@@ -167,20 +166,20 @@ A minor but intentional layout change was made to the "Explore More" feature. It
 
 Several layout changes were made to better align with user expectations and reading flow:
 
-![Focus Mode Mid-fi Image 1]()
+![Focus Mode Mid-fi Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_midfi_1.png)
 
 - The "Enter Focus Mode" button was moved from the top-center of the page to a position closer to the bottom. This placement reflects a natural progression in which users first configure tasks and Pomodoro settings better entering focus mode.
 - A "Return to Main Menu" button was added to provide consistent navigation across features.
 
-![Focus Mode Mid-fi Image 2]()
+![Focus Mode Mid-fi Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_midfi_2.png)
 
 Within Focus Mode itself, a full task list was added and positioned on the right-hand side of the screen. This allows users to view all tasks at once rather than only the currently active task. Displaying upcoming tasks supports better planning, organization, and workflow awareness.
 
 ### Adaptive Learning
 
-![Adaptive Learning Mid-fi Image 1]()
+![Adaptive Learning Mid-fi Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/adaptive_learning_midfi_1.png)
 
-![Adaptive Learning Mid-fi Image 2]()
+![Adaptive Learning Mid-fi Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/adaptive_learning_midfi_2.png)
 
 No major changes were made for the Adaptive Learning feature during the transition from lo-fi to mid-fi. However, the original sketches were refined into mid-fi prototypes that align with the overall minimalist visual style and cohesive design used throughout the system.
 
