@@ -203,14 +203,13 @@ Users questioned the purpose of the reflection feature and felt it could be bett
 
 #### Implemented Changes
 
-![Guided Debugging Mid-fi Version 2 Image 1]()
+![Guided Debugging Mid-fi Version 2 Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_midfi_ver2_1.png)
 
-![Guided Debugging Mid-fi Version 2 Image 2]()
+![Guided Debugging Mid-fi Version 2 Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_midfi_ver2_2.png)
 
 - Consolidated the code submission and revision areas into a single editable block with integrated submission controls.
 - Positioned the code editor and debugging checklist side-by-side to maximize visibility and usability
 - Clarified the reflection feature as a metacognitive learning checkpoint, reinforcing learning after debugging completion
-
 
 ### AI Confidence Score
 
@@ -222,7 +221,7 @@ Users asked whether resource links would be hard-coded or dynamically generated 
 
 #### **Implemented Changes**
 
-![AI Confidence Score Mid-fi Version 2 Image 1]()
+![AI Confidence Score Mid-fi Version 2 Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/ai_answer_confidence_midfi_ver2_1.png)
 
 - Added intuitive color coding:
   - Green for high confidence
@@ -243,9 +242,9 @@ Users asked whether resource links would be hard-coded or dynamically generated 
 
 #### Implemented Changes
 
-![Focus Mode Mid-fi Version 2 Image 1]()
+![Focus Mode Mid-fi Version 2 Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_midfi_ver2_1.png)
 
-![Focus Mode Mid-fi Version 2 Image 2]()
+![Focus Mode Mid-fi Version 2 Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_midfi_ver2_2.png)
 
 - Integrated a full-screen Pomodoro timer with customizable work and break durations.
 - Implemented a drag-and-drop task reordering for improved task management.
@@ -260,9 +259,9 @@ Users asked whether resource links would be hard-coded or dynamically generated 
 
 #### Implemented Changes
 
-![Adaptive Learning Mid-fi Version 2 Image 1]()
+![Adaptive Learning Mid-fi Version 2 Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/adaptive_learning_midfi_ver2_1.png)
 
-![Adaptive Learning Mid-fi Version 2 Image 2]()
+![Adaptive Learning Mid-fi Version 2 Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/adaptive_learning_midfi_ver2_2.png)
 
 - Redesigned resource recommendations to highlight AI-driven personalization.
 - Renamed section titles from "Related Resources" to "Recommended for You"
