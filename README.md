@@ -275,17 +275,17 @@ During the evaluation phase, the AI tutor was further refined through implementa
 
 ### Guided Debugging
 
-![Guided Debugging Hi-fi Desktop Image 1]()
+![Guided Debugging Hi-fi Desktop Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_hifi_1.png)
 
-![Guided Debugging Hi-fi Desktop Image 2]()
+![Guided Debugging Hi-fi Desktop Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_hifi_2.png)
 
-![Guided Debugging Hi-fi Desktop Image 3]()
+![Guided Debugging Hi-fi Desktop Image 3](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_hifi_3.png)
 
-![Guided Debugging Hi-fi Desktop Image 4]()
+![Guided Debugging Hi-fi Desktop Image 4](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_hifi_4.png)
 
-![Guided Debugging Mid-fi Mobile Image 1]()
+![Guided Debugging Mid-fi Mobile Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_midfi_mobile_1.png)
 
-![Guided Debugging Mid-fi Mobile Image 2]()
+![Guided Debugging Mid-fi Mobile Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/guided_debugging_midfi_mobile_2.png)
 
 #### Help Button
 A help button was added to provide a step-by-step explanation of how to use the Guided Debugging feature.
@@ -301,13 +301,13 @@ These changes improve clarity, closure and navigation flow.
 
 ### AI Confidence Score ("Test Your Understanding")
 
-![AI Confidence Score/Test Your Understanding Hi-fi Desktop Image 1]()
+![AI Confidence Score/Test Your Understanding Hi-fi Desktop Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/test_your_understanding_hifi_1.png)
 
-![AI Confidence Score/Test Your Understanding Hi-fi Desktop Image 2]()
+![AI Confidence Score/Test Your Understanding Hi-fi Desktop Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/test_your_understanding_hifi_2.png)
 
-![AI Confidence Score/Test Your Understanding Mid-fi Mobile Image 1]()
+![AI Confidence Score/Test Your Understanding Mid-fi Mobile Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/test_your_understanding_midfi_mobile_1.png)
 
-![AI Confidence Score/Test Your Understanding Mid-fi Mobile Image 2]()
+![AI Confidence Score/Test Your Understanding Mid-fi Mobile Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/test_your_understanding_midfi_mobile_2.png)
 
 
 #### Help Button
@@ -325,17 +325,17 @@ This improves flexibility and prevents users from feeling "stuck" after completi
 
 ### Focus Mode
 
-![Focus Mode Hi-fi Desktop Image 1]()
+![Focus Mode Hi-fi Desktop Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_hifi_1.png)
 
-![Focus Mode Hi-fi Desktop Image 2]()
+![Focus Mode Hi-fi Desktop Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_hifi_2.png)
 
-![Focus Mode Mid-fi Mobile Image 1]()
+![Focus Mode Mid-fi Mobile Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_midfi_mobile_1.png)
 
-![Focus Mode Mid-fi Mobile Image 2]()
+![Focus Mode Mid-fi Mobile Image 2](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_midfi_mobile_2.png)
 
-![Focus Mode Mid-fi Mobile Image 3]()
+![Focus Mode Mid-fi Mobile Image 3](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_midfi_mobile_3.png)
 
-![Focus Mode Mid-fi Mobile Image 4]()
+![Focus Mode Mid-fi Mobile Image 4](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/focus_mode_midfi_mobile_4.png)
 
 #### Help Button
 A help button was added to provide a step-by-step explanation of how to set up and use the "Focus Mode" feature.
