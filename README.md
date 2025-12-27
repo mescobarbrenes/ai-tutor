@@ -349,9 +349,9 @@ This ensures usability parity across screen sizes.
 
 ### Adaptive Learning
 
-![Adaptive Learning Hi-fi Desktop Image 1]()
+![Adaptive Learning Hi-fi Desktop Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/adaptive_learning_hifi_1.png)
 
-![Adaptive Learning Mid-fi Mobile Image 1]()
+![Adaptive Learning Mid-fi Mobile Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/adaptive_learning_midfi_mobile_1.png)
 
 #### User Navigation and Control
 Users can now:
@@ -362,9 +362,9 @@ These options reinforce user control and make the system feel more interactive a
 
 ### Main Navigation Hub
 
-![Main Menu Hi-fi Desktop Image 1]()
+![Main Menu Hi-fi Desktop Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/main_page_hifi_1.png)
 
-![Main Menu Mid-fi Mobile Image 1]()
+![Main Menu Mid-fi Mobile Image 1](https://github.com/mescobarbrenes/ai-tutor/blob/main/images/main_page_midfi_mobile_1.png)
 
 A centralized main menu page was added to unify all features. This hub allows users to easily navigate between:
 - Guided Debugging
